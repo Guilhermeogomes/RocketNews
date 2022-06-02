@@ -148,7 +148,7 @@ top: 424px;
 
 border: none;
 background: var(--bg-button-color);
-background-image: url(/assets/send.svg);
+background-image: url(assets/send.svg);
 background-repeat: no-repeat;
 background-position: center;
 
