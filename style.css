@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+  --input-button-color:#b9a6e4;
+}
+
+body {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
+
+.right-img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0px;
+
+  background: #c4c4c4;
+}
+
+.left-side {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+  /* Black */
+
+  background: #121214;
+}
+
+.logo-img {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+}
+
+.text-area {
+  width: 647px;
+  height: 102px;
+  left: 36px;
+  top: 236px;
+}
+
+h2 {
+  position: absolute;
+  width: 566px;
+  height: 30.44px;
+  left: 36px;
+  top: 236px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* Green */
+
+  color: #08c05e;
+}
+
+p {
+  position: absolute;
+  width: 517px;
+  height: 16px;
+  left: 36px;
+  top: 275px;
+
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+h4 {
+  position: absolute;
+  width: 647px;
+  height: 38px;
+  left: 36px;
+  top: 300px;
+
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+label {
+  position:absolute ;
+  width: 133px;
+  height: 19px;
+  left: 36px;
+  top: 388px;
+
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  color: #a8a8a8;
+}
+
+input{
+  position: absolute;
+width: 798px;
+height: 48px;
+left: 36px;
+top: 424px;
+
+filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+border: none;
+}
+
+
+
+input.input-button{
+  position: absolute;
+  align-items: center;
+text-align: center;
+justify-content: center;
+  display: flex;
+width: 48px;
+height: 48px;
+left: 786px;
+top: 424px;
+
+border: none;
+background: var(--bg-button-color);
+background-image: url(/assets/send.svg);
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+
+
+.send:hover{
+ color: #8257e5;
+}
+
+.input-button:hover{
+  background: var(--input-button-color)
+}
